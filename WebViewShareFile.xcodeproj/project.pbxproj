@@ -13,6 +13,9 @@
 		62620284217821EB00DD07FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62620283217821EB00DD07FD /* Assets.xcassets */; };
 		62620287217821EB00DD07FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62620285217821EB00DD07FD /* LaunchScreen.storyboard */; };
 		6262028A217821EB00DD07FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62620289217821EB00DD07FD /* main.m */; };
+		626202922178263A00DD07FD /* WebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 626202912178263A00DD07FD /* WebViewVC.m */; };
+		62620295217826CC00DD07FD /* WebShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62620294217826CC00DD07FD /* WebShareView.m */; };
+		62620298217829A800DD07FD /* CreateUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 62620297217829A800DD07FD /* CreateUIFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		62620286217821EB00DD07FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62620288217821EB00DD07FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62620289217821EB00DD07FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		626202902178263A00DD07FD /* WebViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewVC.h; sourceTree = "<group>"; };
+		626202912178263A00DD07FD /* WebViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewVC.m; sourceTree = "<group>"; };
+		62620293217826CC00DD07FD /* WebShareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebShareView.h; sourceTree = "<group>"; };
+		62620294217826CC00DD07FD /* WebShareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebShareView.m; sourceTree = "<group>"; };
+		62620296217829A800DD07FD /* CreateUIFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateUIFactory.h; sourceTree = "<group>"; };
+		62620297217829A800DD07FD /* CreateUIFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateUIFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				62620285217821EB00DD07FD /* LaunchScreen.storyboard */,
 				62620288217821EB00DD07FD /* Info.plist */,
 				62620289217821EB00DD07FD /* main.m */,
+				626202902178263A00DD07FD /* WebViewVC.h */,
+				626202912178263A00DD07FD /* WebViewVC.m */,
+				62620293217826CC00DD07FD /* WebShareView.h */,
+				62620294217826CC00DD07FD /* WebShareView.m */,
+				62620296217829A800DD07FD /* CreateUIFactory.h */,
+				62620297217829A800DD07FD /* CreateUIFactory.m */,
 			);
 			path = WebViewShareFile;
 			sourceTree = "<group>";
@@ -141,9 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626202922178263A00DD07FD /* WebViewVC.m in Sources */,
 				6262027F217821E900DD07FD /* ViewController.m in Sources */,
 				6262028A217821EB00DD07FD /* main.m in Sources */,
 				6262027C217821E900DD07FD /* AppDelegate.m in Sources */,
+				62620298217829A800DD07FD /* CreateUIFactory.m in Sources */,
+				62620295217826CC00DD07FD /* WebShareView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

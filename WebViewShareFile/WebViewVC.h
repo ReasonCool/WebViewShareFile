@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  WebViewVC.h
 //  WebViewShareFile
 //
 //  Created by reason on 2018/10/18.
@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WebViewVC.h"
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+NS_ASSUME_NONNULL_BEGIN
 
+@interface WebViewVC : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

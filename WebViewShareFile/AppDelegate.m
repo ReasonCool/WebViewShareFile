@@ -8,7 +8,10 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+@interface AppDelegate (){
+    UINavigationController *naviMain;
+    WebViewVC*viewRoot;
+}
 
 @end
 
@@ -17,6 +20,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [window setBackgroundColor:[UIColor whiteColor]];
+    
+    viewRoot  = [[WebViewVC alloc]init]; //initWithNibName:@"ViewController" bundle:nil];
+    [viewRoot setTitle:@"WebViewShareFile"];
+    
+    naviMain=[[UINavigationController alloc]initWithRootViewController:viewRoot ];
+    
+    
+    [window setRootViewController:naviMain];
+    
+    [self setWindow:window];
+    [window makeKeyAndVisible];
     return YES;
 }
 
